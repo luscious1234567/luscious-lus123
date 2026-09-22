@@ -1,1 +1,121 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Empire Flix</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <a href="#" class="logo">
+            EMPIRE<span>FLIX</span>
+        </a>
+
+        <nav class="nav">
+            <a href="#home">Home</a>
+            <a href="#movies">Movies</a>
+            <a href="#genres">Genres</a>
+        </nav>
+
+        <div class="search-box">
+            <span>🔍</span>
+            <input
+                type="text"
+                id="search"
+                placeholder="Search movies..."
+            >
+        </div>
+    </header>
+
+
+    <!-- HERO -->
+    <main>
+
+        <section id="home" class="hero">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    EMPIRE MOVIES
+                </p>
+
+                <h1>
+                    YOUR NEXT
+                    <span>GREAT MOVIE</span>
+                    STARTS HERE.
+                </h1>
+
+                <p class="hero-text">
+                    Discover amazing movies, explore different genres
+                    and find something perfect to watch tonight.
+                </p>
+
+                <a href="#movies" class="hero-button">
+                    EXPLORE MOVIES →
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- MOVIES -->
+        <section id="movies" class="movies-section">
+
+            <div class="section-header">
+
+                <div>
+                    <p class="eyebrow">
+                        CURATED FOR YOU
+                    </p>
+
+                    <h2>
+                        Popular Movies
+                    </h2>
+                </div>
+
+                <select id="genre">
+                    <option value="all">All Genres</option>
+                    <option value="Action">Action</option>
+                    <option value="Drama">Drama</option>
+                    <option value="Comedy">Comedy</option>
+                    <option value="Animation">Animation</option>
+                    <option value="Sci-Fi">Sci-Fi</option>
+                </select>
+
+            </div>
+
+
+            <!-- MOVIE CARDS WILL APPEAR HERE -->
+            <div id="grid" class="movie-grid"></div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <h3>
+            EMPIRE<span>FLIX</span>
+        </h3>
+
+        <p>
+            © 2026 Empire Flix. All rights reserved.
+        </p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
 
